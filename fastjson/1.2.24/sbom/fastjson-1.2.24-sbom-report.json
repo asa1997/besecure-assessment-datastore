@@ -3,9 +3,9 @@
 	"dataLicense": "CC0-1.0",
 	"SPDXID": "SPDXRef-DOCUMENT",
 	"name": "fastjson-1.2.24",
-	"documentNamespace": "http://spdx.org/spdxpackages/fastjson-1.2.24-9a4d194c-470e-47c4-b21f-bb467ca089c1",
+	"documentNamespace": "http://spdx.org/spdxpackages/fastjson-1.2.24-4143a36a-1c64-4c7b-8324-d00cbf65bf84",
 	"creationInfo": {
-		"created": "2024-03-20T06:59:46Z",
+		"created": "2024-03-20T09:16:08Z",
 		"creators": [
 			"Tool: spdx-sbom-generator-v0.0.15"
 		]
@@ -730,316 +730,16 @@
 			"comment": "NOASSERTION"
 		},
 		{
-			"name": "maven-antrun-plugin",
-			"SPDXID": "SPDXRef-Package-maven-antrun-plugin- Plugin org.apache.maven.plugins",
-			"versionInfo": " Plugin org.apache.maven.plugins",
-			"supplier": "Organization: maven-antrun-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-antrun-plugin/ Plugin org.apache.maven.plugins",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "b8ae7e26f7fca23ed28a3e7a39b4e33fc32919a5"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-assembly-plugin",
-			"SPDXID": "SPDXRef-Package-maven-assembly-plugin- Plugin org.apache.maven.plugins",
-			"versionInfo": " Plugin org.apache.maven.plugins",
-			"supplier": "Organization: maven-assembly-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-assembly-plugin/ Plugin org.apache.maven.plugins",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "6381595cb9f1c465cec19ae14ce7b1785b6acdfd"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-clean-plugin",
-			"SPDXID": "SPDXRef-Package-maven-clean-plugin- Plugin org.apache.maven.plugins",
-			"versionInfo": " Plugin org.apache.maven.plugins",
-			"supplier": "Organization: maven-clean-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-clean-plugin/ Plugin org.apache.maven.plugins",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "10c987062aa8b94186a151fb61d00b58229a7a47"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
 			"name": "maven-dependency-plugin",
-			"SPDXID": "SPDXRef-Package-maven-dependency-plugin- Plugin org.apache.maven.plugins",
-			"versionInfo": " Plugin org.apache.maven.plugins",
+			"SPDXID": "SPDXRef-Package-maven-dependency-plugin-list\u001b[m \u001b[1m(default-cli)\u001b[m",
+			"versionInfo": "list\u001b[m \u001b[1m(default-cli)\u001b[m",
 			"supplier": "Organization: maven-dependency-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-dependency-plugin/ Plugin org.apache.maven.plugins",
+			"downloadLocation": "https://mvnrepository.com/artifact/Failed to execute goal \u001b[32morg.apache.maven.plugins/maven-dependency-plugin/list\u001b[m \u001b[1m(default-cli)\u001b[m",
 			"filesAnalyzed": false,
 			"checksums": [
 				{
 					"algorithm": "SHA1",
 					"checksumValue": "454728243c5e9d592dd26e4ef4626a78a51b041f"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-deploy-plugin",
-			"SPDXID": "SPDXRef-Package-maven-deploy-plugin- Plugin org.apache.maven.plugins",
-			"versionInfo": " Plugin org.apache.maven.plugins",
-			"supplier": "Organization: maven-deploy-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-deploy-plugin/ Plugin org.apache.maven.plugins",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "18ec4df04bd88eaa8efd5a9da841881cefc50fb7"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-install-plugin",
-			"SPDXID": "SPDXRef-Package-maven-install-plugin- Plugin org.apache.maven.plugins",
-			"versionInfo": " Plugin org.apache.maven.plugins",
-			"supplier": "Organization: maven-install-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-install-plugin/ Plugin org.apache.maven.plugins",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "bf69d776115b0bbfda6cf8fc95e046581527377c"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-release-plugin",
-			"SPDXID": "SPDXRef-Package-maven-release-plugin- Plugin org.apache.maven.plugins",
-			"versionInfo": " Plugin org.apache.maven.plugins",
-			"supplier": "Organization: maven-release-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-release-plugin/ Plugin org.apache.maven.plugins",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "fd7254958a4a2baf03d756cc819ec6e7892ab64c"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-site-plugin",
-			"SPDXID": "SPDXRef-Package-maven-site-plugin- Plugin org.apache.maven.plugins",
-			"versionInfo": " Plugin org.apache.maven.plugins",
-			"supplier": "Organization: maven-site-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/Failed to retrieve plugin descriptor for org.apache.maven.plugins/maven-site-plugin/ Plugin org.apache.maven.plugins",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "0a660974fe3e81de94e0f70dcc798b0a4f18601e"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "2024-03-20T06",
-			"SPDXID": "SPDXRef-Package-2024-03-20T06-14Z",
-			"versionInfo": "14Z",
-			"supplier": "Organization: 2024-03-20T06",
-			"downloadLocation": "https://mvnrepository.com/artifact/Finished at/2024-03-20T06/14Z",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "7db0c750e09eb98e12f045580071dd3b31c356d4"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-antrun-plugin",
-			"SPDXID": "SPDXRef-Package-maven-antrun-plugin-1.3 is missing, no dependency information available",
-			"versionInfo": "1.3 is missing, no dependency information available",
-			"supplier": "Organization: maven-antrun-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-antrun-plugin/1.3 is missing, no dependency information available",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "b8ae7e26f7fca23ed28a3e7a39b4e33fc32919a5"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-assembly-plugin",
-			"SPDXID": "SPDXRef-Package-maven-assembly-plugin-2.2-beta-5 is missing, no dependency information available",
-			"versionInfo": "2.2-beta-5 is missing, no dependency information available",
-			"supplier": "Organization: maven-assembly-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-assembly-plugin/2.2-beta-5 is missing, no dependency information available",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "6381595cb9f1c465cec19ae14ce7b1785b6acdfd"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-clean-plugin",
-			"SPDXID": "SPDXRef-Package-maven-clean-plugin-2.5 is missing, no dependency information available",
-			"versionInfo": "2.5 is missing, no dependency information available",
-			"supplier": "Organization: maven-clean-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-clean-plugin/2.5 is missing, no dependency information available",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "10c987062aa8b94186a151fb61d00b58229a7a47"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-dependency-plugin",
-			"SPDXID": "SPDXRef-Package-maven-dependency-plugin-2.8 is missing, no dependency information available",
-			"versionInfo": "2.8 is missing, no dependency information available",
-			"supplier": "Organization: maven-dependency-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-dependency-plugin/2.8 is missing, no dependency information available",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "454728243c5e9d592dd26e4ef4626a78a51b041f"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-deploy-plugin",
-			"SPDXID": "SPDXRef-Package-maven-deploy-plugin-2.7 is missing, no dependency information available",
-			"versionInfo": "2.7 is missing, no dependency information available",
-			"supplier": "Organization: maven-deploy-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-deploy-plugin/2.7 is missing, no dependency information available",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "18ec4df04bd88eaa8efd5a9da841881cefc50fb7"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-install-plugin",
-			"SPDXID": "SPDXRef-Package-maven-install-plugin-2.4 is missing, no dependency information available",
-			"versionInfo": "2.4 is missing, no dependency information available",
-			"supplier": "Organization: maven-install-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-install-plugin/2.4 is missing, no dependency information available",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "bf69d776115b0bbfda6cf8fc95e046581527377c"
-				}
-			],
-			"homepage": "NOASSERTION",
-			"licenseConcluded": "NOASSERTION",
-			"licenseDeclared": "NOASSERTION",
-			"copyrightText": "NOASSERTION",
-			"licenseComments": "NOASSERTION",
-			"comment": "NOASSERTION"
-		},
-		{
-			"name": "maven-release-plugin",
-			"SPDXID": "SPDXRef-Package-maven-release-plugin-2.5.3 is missing, no dependency information available",
-			"versionInfo": "2.5.3 is missing, no dependency information available",
-			"supplier": "Organization: maven-release-plugin",
-			"downloadLocation": "https://mvnrepository.com/artifact/The POM for org.apache.maven.plugins/maven-release-plugin/2.5.3 is missing, no dependency information available",
-			"filesAnalyzed": false,
-			"checksums": [
-				{
-					"algorithm": "SHA1",
-					"checksumValue": "fd7254958a4a2baf03d756cc819ec6e7892ab64c"
 				}
 			],
 			"homepage": "NOASSERTION",
@@ -1058,92 +758,12 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-javax.servlet-api-3.1.0",
+			"relatedSpdxElement": "SPDXRef-Package-groovy-2.1.5",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-test-4.2.5.RELEASE",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-clean-plugin-2.5 is missing, no dependency information available",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-site-plugin- Plugin org.apache.maven.plugins",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-javax.ws.rs-api-2.0.1",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jackson-databind-2.7.3",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-genson-1.4",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-clojure-1.5.1",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jersey-container-servlet-2.21",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-assembly-plugin-2.2-beta-5 is missing, no dependency information available",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-transports-http-3.1.2",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-rs-client-3.1.2",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-2024-03-20T06-14Z",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-json-simple-1.1.1",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-gson-2.6.2",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-websocket-4.2.5.RELEASE",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-springfox-spring-web-2.5.0",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jetty-server-8.1.8.v20121106",
+			"relatedSpdxElement": "SPDXRef-Package-spring-data-commons-core-1.4.1.RELEASE",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -1153,12 +773,77 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jackson-module-afterburner-2.7.3",
+			"relatedSpdxElement": "SPDXRef-Package-junit-4.11",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-json-lib-2.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-genson-scala-2.11-1.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-javassist-3.18.0-GA",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-maven-dependency-plugin-list\u001b[m \u001b[1m(default-cli)\u001b[m",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
 			"relatedSpdxElement": "SPDXRef-Package-cglib-nodep-2.2.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-json-simple-1.1.1",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-commons-io-1.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-gson-2.6.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jetty-server-8.1.8.v20121106",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-genson-1.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-retrofit-2.1.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jackson-jaxrs-json-provider-2.7.3",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jersey-test-framework-provider-jdk-http-2.21",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jsoniter-0.9.4",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -1173,92 +858,12 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-deploy-plugin-2.7 is missing, no dependency information available",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-release-plugin-2.5.3 is missing, no dependency information available",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-frontend-jaxrs-3.1.2",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-commons-io-1.4",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jersey-client-2.21",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jsoniter-0.9.4",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-junit-4.11",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jackson-jaxrs-json-provider-2.7.3",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-genson-scala-2.11-1.4",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-groovy-2.1.5",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-install-plugin-2.4 is missing, no dependency information available",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
 			"relatedSpdxElement": "SPDXRef-Package-spring-webmvc-4.2.5.RELEASE",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-javassist-3.18.0-GA",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jersey-test-framework-provider-jdk-http-2.21",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-dependency-plugin-2.8 is missing, no dependency information available",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-retrofit-2.1.0",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-okhttp-3.5.0",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-json-lib-2.4",
+			"relatedSpdxElement": "SPDXRef-Package-jackson-databind-2.7.3",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -1268,12 +873,67 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-data-commons-core-1.4.1.RELEASE",
+			"relatedSpdxElement": "SPDXRef-Package-jersey-client-2.21",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-antrun-plugin-1.3 is missing, no dependency information available",
+			"relatedSpdxElement": "SPDXRef-Package-spring-test-4.2.5.RELEASE",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-rs-client-3.1.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-clojure-1.5.1",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-transports-http-3.1.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-spring-websocket-4.2.5.RELEASE",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-okhttp-3.5.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-springfox-spring-web-2.5.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jersey-container-servlet-2.21",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-javax.servlet-api-3.1.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-javax.ws.rs-api-2.0.1",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-frontend-jaxrs-3.1.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jackson-module-afterburner-2.7.3",
 			"relationshipType": "DEPENDS_ON"
 		}
 	]

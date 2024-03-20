@@ -17,10 +17,10 @@
             },
             "execution": {
                 "type": "Lab",
-                "id": "Be-Secure",
+                "id": "O31E",
                 "status": "success",
-                "timestamp": "Wed Mar 20 06:59:46 UTC 2024",
-                "duration": "46 sec",
+                "timestamp": "Wed Mar 20 09:16:08 UTC 2024",
+                "duration": "29 sec",
                 "output_path": "https://github.com/Be-Secure/besecure-assessment-datastore/fastjson/1.2.24/sbom/fastjson-1.2.24-sbom-report.json"
             },
             "results": [
@@ -28,7 +28,7 @@
                     "feature": "Dependency",
                     "aspect": "Count",
                     "attribute": "N/A",
-                    "value": 52
+                    "value": 37
                 }
             ]
         }
