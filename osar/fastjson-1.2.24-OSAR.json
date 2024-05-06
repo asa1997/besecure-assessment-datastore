@@ -19,8 +19,8 @@
                 "type": "Organization",
                 "id": "Be-Secure",
                 "status": "success",
-                "timestamp": "Mon May  6 02:48:34 PM IST 2024",
-                "duration": "22 sec",
+                "timestamp": "Mon May  6 02:50:19 PM IST 2024",
+                "duration": "3 sec",
                 "output_path": "https://github.com/Be-Secure/besecure-assessment-datastore/fastjson/1.2.24/sbom/fastjson-1.2.24-sbom-report.json"
             },
             "results": []
