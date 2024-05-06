@@ -13,14 +13,14 @@
                 "name": "sonarqube",
                 "type": "sast",
                 "version": "9.9.4",
-                "playbook": "besman-sonarqube-9.9.4-playbook.sh"
+                "playbook": "besman-sonarqube-0.0.1-playbook.sh"
             },
             "execution": {
                 "type": "Organization",
                 "id": "Be-Secure",
                 "status": "success",
-                "timestamp": "Mon May  6 02:46:20 PM IST 2024",
-                "duration": "25 sec",
+                "timestamp": "Mon May  6 02:48:34 PM IST 2024",
+                "duration": "22 sec",
                 "output_path": "https://github.com/Be-Secure/besecure-assessment-datastore/fastjson/1.2.24/sbom/fastjson-1.2.24-sbom-report.json"
             },
             "results": []
