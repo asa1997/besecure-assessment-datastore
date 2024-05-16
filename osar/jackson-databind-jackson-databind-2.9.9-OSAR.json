@@ -1,0 +1,60 @@
+{
+    "schema_version": "0.1.0",
+    "asset": {
+        "type": "project",
+        "name": "jackson-databind",
+        "version": "jackson-databind-2.9.9",
+        "url": "https://github.com/Be-Secure/jackson-databind",
+        "environment": "jackson-databind-BT-env"
+    },
+    "assessments": [
+        {
+            "tool": {
+                "name": "sonarqube",
+                "type": "sast",
+                "version": "9.9.4",
+                "playbook": "besman-sonarqube-0.0.1-playbook.sh"
+            },
+            "execution": {
+                "type": "Organization",
+                "id": "Be-Secure",
+                "status": "success",
+                "timestamp": "Thu May 16 09:32:24 AM IST 2024",
+                "duration": "53 sec",
+                "output_path": "https://github.com/Be-Secure/besecure-assessment-datastore/jackson-databind/jackson-databind-2.9.9/sast/jackson-databind-jackson-databind-2.9.9-sast-report.json"
+            },
+            "results": [
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "INFO",
+                    "value": 541
+                },
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "MINOR",
+                    "value": 3335
+                },
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "CRITICAL",
+                    "value": 721
+                },
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "MAJOR",
+                    "value": 1510
+                },
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "BLOCKER",
+                    "value": 51
+                }
+            ]
+        }
+    ]
+}
