@@ -1,0 +1,42 @@
+{
+    "schema_version": "0.1.0",
+    "asset": {
+        "type": "project",
+        "name": "fastjson",
+        "version": "1.2.24",
+        "url": "https://github.com/Be-Secure/fastjson",
+        "environment": "fastjson-RT-env"
+    },
+    "completionCriteria": [
+        {
+            "sbom": true
+        }
+    ],
+    "completionStatus": true,
+    "assessments": [
+        {
+            "tool": {
+                "name": "spdx-sbom-generator",
+                "type": "sbom",
+                "version": "v0.0.15",
+                "playbook": "besman-spdx-sbom-generator-0.0.1-playbook.sh"
+            },
+            "execution": {
+                "type": "Organization",
+                "id": "Be-Secure",
+                "status": "success",
+                "timestamp": "Fri May 24 09:51:42 AM IST 2024",
+                "duration": "6 sec",
+                "output_path": "https://github.com/Be-Secure/besecure-assessment-datastore/fastjson/1.2.24/sbom/fastjson-1.2.24-sbom-report.json"
+            },
+            "results": [
+                {
+                    "feature": "Dependency",
+                    "aspect": "Count",
+                    "attribute": "N/A",
+                    "value": 38
+                }
+            ]
+        }
+    ]
+}
