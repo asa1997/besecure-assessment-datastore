@@ -3,9 +3,9 @@
 	"dataLicense": "CC0-1.0",
 	"SPDXID": "SPDXRef-DOCUMENT",
 	"name": "fastjson-1.2.24",
-	"documentNamespace": "http://spdx.org/spdxpackages/fastjson-1.2.24-ffe12dd0-99ee-4c32-b43e-418815e6c976",
+	"documentNamespace": "http://spdx.org/spdxpackages/fastjson-1.2.24-33a2e74c-615e-46dc-b50e-0d0f3da3de75",
 	"creationInfo": {
-		"created": "2024-05-24T04:21:42Z",
+		"created": "2024-05-24T04:22:35Z",
 		"creators": [
 			"Tool: spdx-sbom-generator-v0.0.15"
 		]
@@ -751,10 +751,10 @@
 		},
 		{
 			"name": "2024-05-24T09",
-			"SPDXID": "SPDXRef-Package-2024-05-24T09-39+05",
-			"versionInfo": "39+05",
+			"SPDXID": "SPDXRef-Package-2024-05-24T09-32+05",
+			"versionInfo": "32+05",
 			"supplier": "Organization: 2024-05-24T09",
-			"downloadLocation": "https://mvnrepository.com/artifact/Finished at/2024-05-24T09/39+05",
+			"downloadLocation": "https://mvnrepository.com/artifact/Finished at/2024-05-24T09/32+05",
 			"filesAnalyzed": false,
 			"checksums": [
 				{
@@ -778,37 +778,42 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-javax.ws.rs-api-2.0.1",
+			"relatedSpdxElement": "SPDXRef-Package-spring-webmvc-4.2.5.RELEASE",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-json-lib-2.4",
+			"relatedSpdxElement": "SPDXRef-Package-spring-data-commons-core-1.4.1.RELEASE",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-javadoc-plugin-",
+			"relatedSpdxElement": "SPDXRef-Package-jersey-container-servlet-2.21",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-genson-scala-2.11-1.4",
+			"relatedSpdxElement": "SPDXRef-Package-javax.servlet-api-3.1.0",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jersey-client-2.21",
+			"relatedSpdxElement": "SPDXRef-Package-spring-websocket-4.2.5.RELEASE",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jsoniter-0.9.4",
+			"relatedSpdxElement": "SPDXRef-Package-cglib-nodep-2.2.2",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-gpg-plugin-",
+			"relatedSpdxElement": "SPDXRef-Package-clojure-1.5.1",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-groovy-2.1.5",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -818,17 +823,22 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-transports-http-3.1.2",
+			"relatedSpdxElement": "SPDXRef-Package-jetty-server-8.1.8.v20121106",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-frontend-jaxrs-3.1.2",
+			"relatedSpdxElement": "SPDXRef-Package-jackson-module-afterburner-2.7.3",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-clojure-1.5.1",
+			"relatedSpdxElement": "SPDXRef-Package-commons-io-1.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-genson-1.4",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -843,97 +853,7 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-javax.servlet-api-3.1.0",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jetty-server-8.1.8.v20121106",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-junit-4.11",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-json-smart-2.2.1",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-data-commons-core-1.4.1.RELEASE",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-2024-05-24T09-39+05",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-webmvc-4.2.5.RELEASE",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-springfox-spring-web-2.5.0",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cglib-nodep-2.2.2",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jackson-jaxrs-json-provider-2.7.3",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-groovy-2.1.5",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-test-4.2.5.RELEASE",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-websocket-4.2.5.RELEASE",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-retrofit-2.1.0",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jackson-databind-2.7.3",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-genson-1.4",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-okhttp-3.5.0",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jetty-webapp-8.1.8.v20121106",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jersey-container-servlet-2.21",
+			"relatedSpdxElement": "SPDXRef-Package-jersey-client-2.21",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -943,22 +863,102 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jackson-module-afterburner-2.7.3",
+			"relatedSpdxElement": "SPDXRef-Package-springfox-spring-web-2.5.0",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-json-simple-1.1.1",
+			"relatedSpdxElement": "SPDXRef-Package-junit-4.11",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-commons-io-1.4",
+			"relatedSpdxElement": "SPDXRef-Package-jackson-databind-2.7.3",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-maven-javadoc-plugin-",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-json-smart-2.2.1",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jetty-webapp-8.1.8.v20121106",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jackson-jaxrs-json-provider-2.7.3",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
 			"relatedSpdxElement": "SPDXRef-Package-gson-2.6.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-genson-scala-2.11-1.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-spring-test-4.2.5.RELEASE",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-javax.ws.rs-api-2.0.1",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-transports-http-3.1.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-frontend-jaxrs-3.1.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jsoniter-0.9.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-json-lib-2.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-maven-gpg-plugin-",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-2024-05-24T09-32+05",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-retrofit-2.1.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-okhttp-3.5.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-json-simple-1.1.1",
 			"relationshipType": "DEPENDS_ON"
 		}
 	]
