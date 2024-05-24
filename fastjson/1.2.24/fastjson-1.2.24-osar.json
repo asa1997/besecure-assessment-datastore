@@ -9,9 +9,10 @@
     },
     "completionCriteria": {
         "sbom": true,
-        "criticality_score": true
+        "criticality_score": true,
+        "scorecard": false
     },
-    "completionStatus": true,
+    "completionStatus": false,
     "assessments": [
         {
             "tool": {
@@ -48,8 +49,8 @@
                 "type": "Organization",
                 "id": "Be-Secure",
                 "status": "success",
-                "timestamp": "Fri May 24 03:09:07 PM IST 2024",
-                "duration": "5 sec",
+                "timestamp": "Fri May 24 03:11:21 PM IST 2024",
+                "duration": "6 sec",
                 "output_path": "https://github.com/Be-Secure/besecure-assessment-datastore/fastjson/1.2.24/criticality_score/fastjson-1.2.24-criticality_score-report.json"
             },
             "results": [
