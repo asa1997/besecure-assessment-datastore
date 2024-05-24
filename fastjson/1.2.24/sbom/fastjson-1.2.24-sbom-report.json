@@ -3,9 +3,9 @@
 	"dataLicense": "CC0-1.0",
 	"SPDXID": "SPDXRef-DOCUMENT",
 	"name": "fastjson-1.2.24",
-	"documentNamespace": "http://spdx.org/spdxpackages/fastjson-1.2.24-a09da393-4b32-4245-86b9-c4c30a389ef4",
+	"documentNamespace": "http://spdx.org/spdxpackages/fastjson-1.2.24-c212ac90-37df-4bb3-909c-bb05317eee06",
 	"creationInfo": {
-		"created": "2024-05-24T04:53:06Z",
+		"created": "2024-05-24T09:34:59Z",
 		"creators": [
 			"Tool: spdx-sbom-generator-v0.0.15"
 		]
@@ -750,16 +750,16 @@
 			"comment": "NOASSERTION"
 		},
 		{
-			"name": "2024-05-24T10",
-			"SPDXID": "SPDXRef-Package-2024-05-24T10-03+05",
-			"versionInfo": "03+05",
-			"supplier": "Organization: 2024-05-24T10",
-			"downloadLocation": "https://mvnrepository.com/artifact/Finished at/2024-05-24T10/03+05",
+			"name": "2024-05-24T15",
+			"SPDXID": "SPDXRef-Package-2024-05-24T15-56+05",
+			"versionInfo": "56+05",
+			"supplier": "Organization: 2024-05-24T15",
+			"downloadLocation": "https://mvnrepository.com/artifact/Finished at/2024-05-24T15/56+05",
 			"filesAnalyzed": false,
 			"checksums": [
 				{
 					"algorithm": "SHA1",
-					"checksumValue": "a11097190d87ffca16308c396ffea37c3ff7b290"
+					"checksumValue": "901eb4168b7e0faa687ba4331a112409c577f31d"
 				}
 			],
 			"homepage": "NOASSERTION",
@@ -778,17 +778,7 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jsoniter-0.9.4",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-gpg-plugin-",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jetty-server-8.1.8.v20121106",
+			"relatedSpdxElement": "SPDXRef-Package-commons-io-1.4",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -798,12 +788,7 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-javassist-3.18.0-GA",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jersey-container-servlet-2.21",
+			"relatedSpdxElement": "SPDXRef-Package-gson-2.6.2",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -813,7 +798,12 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-maven-dependency-plugin-list\u001b[m \u001b[1m(default-cli)\u001b[m",
+			"relatedSpdxElement": "SPDXRef-Package-cglib-nodep-2.2.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jetty-webapp-8.1.8.v20121106",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -823,12 +813,7 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-frontend-jaxrs-3.1.2",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-junit-4.11",
+			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-transports-http-3.1.2",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -838,12 +823,7 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-2024-05-24T10-03+05",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-transports-http-3.1.2",
+			"relatedSpdxElement": "SPDXRef-Package-jackson-jaxrs-json-provider-2.7.3",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -853,57 +833,7 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-genson-scala-2.11-1.4",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-groovy-2.1.5",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-data-commons-core-1.4.1.RELEASE",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-javax.ws.rs-api-2.0.1",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-gson-2.6.2",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-json-smart-2.2.1",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-webmvc-4.2.5.RELEASE",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cglib-nodep-2.2.2",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-commons-io-1.4",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
 			"relatedSpdxElement": "SPDXRef-Package-spring-test-4.2.5.RELEASE",
-			"relationshipType": "DEPENDS_ON"
-		},
-		{
-			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-rs-client-3.1.2",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -918,12 +848,22 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jackson-databind-2.7.3",
+			"relatedSpdxElement": "SPDXRef-Package-junit-4.11",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-clojure-1.5.1",
+			"relatedSpdxElement": "SPDXRef-Package-groovy-2.1.5",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-javassist-3.18.0-GA",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jersey-container-servlet-2.21",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -933,17 +873,27 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-okhttp-3.5.0",
+			"relatedSpdxElement": "SPDXRef-Package-jersey-test-framework-provider-jdk-http-2.21",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jetty-webapp-8.1.8.v20121106",
+			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-frontend-jaxrs-3.1.2",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jackson-jaxrs-json-provider-2.7.3",
+			"relatedSpdxElement": "SPDXRef-Package-maven-gpg-plugin-",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-spring-websocket-4.2.5.RELEASE",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jackson-databind-2.7.3",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
@@ -953,12 +903,62 @@
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-jersey-test-framework-provider-jdk-http-2.21",
+			"relatedSpdxElement": "SPDXRef-Package-clojure-1.5.1",
 			"relationshipType": "DEPENDS_ON"
 		},
 		{
 			"spdxElementId": "SPDXRef-Package-fastjson",
-			"relatedSpdxElement": "SPDXRef-Package-spring-websocket-4.2.5.RELEASE",
+			"relatedSpdxElement": "SPDXRef-Package-javax.ws.rs-api-2.0.1",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-cxf-rt-rs-client-3.1.2",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-spring-data-commons-core-1.4.1.RELEASE",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jsoniter-0.9.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-genson-scala-2.11-1.4",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-jetty-server-8.1.8.v20121106",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-json-smart-2.2.1",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-maven-dependency-plugin-list\u001b[m \u001b[1m(default-cli)\u001b[m",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-okhttp-3.5.0",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-2024-05-24T15-56+05",
+			"relationshipType": "DEPENDS_ON"
+		},
+		{
+			"spdxElementId": "SPDXRef-Package-fastjson",
+			"relatedSpdxElement": "SPDXRef-Package-spring-webmvc-4.2.5.RELEASE",
 			"relationshipType": "DEPENDS_ON"
 		}
 	]
