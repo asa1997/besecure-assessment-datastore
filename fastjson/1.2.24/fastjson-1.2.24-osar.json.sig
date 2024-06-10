@@ -1,1 +1,1 @@
-MEYCIQCSq1yT1g6h0EJMhP5AiWla6PGeK+4ZbkaokJCu/YSAZgIhAMmI8OzfTSWh55ZZ2DS9OCvhM3xClUXT4sPpOaCtGhUy
+main.go:74: error during command execution: signing fastjson-1.2.24-osar.json: reading key: decrypt: encrypted: decryption failed
