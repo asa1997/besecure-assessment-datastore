@@ -55,6 +55,54 @@
                     "value": "0.29724"
                 }
             ]
+        },
+        {
+            "tool": {
+                "name": "sonarqube",
+                "type": "sast",
+                "version": "9.9.4",
+                "playbook": "besman-SAST-sonarqube-playbook-0.0.1.sh"
+            },
+            "execution": {
+                "type": "Lab",
+                "id": "BeSLab",
+                "status": "success",
+                "timestamp": "Fri Jun 27 04:06:00 PM IST 2025",
+                "duration": "1433 sec",
+                "output_path": "https://github.com/Be-Secure/besecure-assessment-datastore/OpenAgents/alpha/sast/OpenAgents-alpha-sonarqube-report.json"
+            },
+            "results": [
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "MAJOR",
+                    "value": 261
+                },
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "MINOR",
+                    "value": 134
+                },
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "INFO",
+                    "value": 18
+                },
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "CRITICAL",
+                    "value": 63
+                },
+                {
+                    "feature": "Vulnerability",
+                    "aspect": "Severity",
+                    "attribute": "BLOCKER",
+                    "value": 2
+                }
+            ]
         }
     ]
 }
